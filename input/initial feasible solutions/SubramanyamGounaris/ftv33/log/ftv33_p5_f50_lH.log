@@ -1,0 +1,13 @@
+- Starting heuristic -
+
+Exact TSP
+x  TSP Iteration:       0   1078   5174
+------ Iteration:       0   1078   5174
+------ Iteration:     100   1078   5174
+------ Iteration:     200   1078   5174
+------ Iteration:     300   1078   5174
+
+Exact Precedences TSP
+* 2OPT Iteration:       2   1078   5174
+Feasible solution found
+

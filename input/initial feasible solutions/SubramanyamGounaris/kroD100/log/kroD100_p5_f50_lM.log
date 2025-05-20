@@ -1,0 +1,45 @@
+- Starting heuristic -
+
+Exact TSP
+x  TSP Iteration:       0  17749  83860
+* 2OPT Iteration:       0  17315  82381
+* BPER Iteration:       0  17119  82185
+------ Iteration:       0  17119  82185
+* BPER Iteration:      25  17134  82139
+* APER Iteration:      25  17134  82035
+* APER Iteration:      50  17134  82018
+* APER Iteration:      75  17134  82003
+* BPER Iteration:     100  17173  81941
+* APER Iteration:     100  17173  81800
+------ Iteration:     100  17173  81800
+* APER Iteration:     125  17173  81777
+* BPER Iteration:     175  16616  81373
+* APER Iteration:     175  16616  81356
+------ Iteration:     200  16616  81356
+* 2OPT Iteration:     275  17090  81181
+* BPER Iteration:     275  17090  81040
+* APER Iteration:     275  17090  80941
+* APER Iteration:     300  17090  80937
+------ Iteration:     300  17090  80937
+* APER Iteration:     325  17090  80914
+* 2OPT Iteration:     400  16691  80509
+* BPER Iteration:     400  16691  80480
+* APER Iteration:     400  16691  80465
+------ Iteration:     400  16691  80465
+* APER Iteration:     425  16691  80442
+------ Iteration:     500  16691  80442
+------ Iteration:     600  16691  80442
+------ Iteration:     700  16691  80442
+
+Exact Precedences TSP
+* 2OPT Iteration:       0  16703  80567
+* BPER Iteration:       0  16703  80550
+* 2OPT Iteration:       1  16703  80652
+* BPER Iteration:       1  16703  80635
+* APER Iteration:       2  17521  83724
+* 2OPT Iteration:       3  16983  81764
+* BPER Iteration:       3  16983  81188
+* 2OPT Iteration:       4  16691  80834
+* BPER Iteration:       4  16691  80693
+Feasible solution found
+

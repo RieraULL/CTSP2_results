@@ -1,0 +1,36 @@
+- Starting heuristic -
+
+Exact TSP
+   TSP Iteration:       0   1701
+------ Iteration:       0   1701
+------ Iteration:     100   1701
+------ Iteration:     200   1701
+------ Iteration:     300   1701
+
+Nearest Neighbor TSP
+------ Iteration:       0   1701
+------ Iteration:     100   1701
+------ Iteration:     200   1701
+------ Iteration:     300   1701
+------ Iteration:     400   1701
+------ Iteration:     500   1701
+------ Iteration:     600   1701
+
+Cheapest Insertion TSP
+------ Iteration:       0   1701
+------ Iteration:     100   1701
+------ Iteration:     200   1701
+------ Iteration:     300   1701
+------ Iteration:     400   1701
+------ Iteration:     500   1701
+------ Iteration:     600   1701
+------ Iteration:     700   1701
+------ Iteration:     800   1701
+------ Iteration:     900   1701
+------ Iteration:    1000   1701
+------ Iteration:    1100   1701
+------ Iteration:    1200   1701
+
+Exact Precedences TSP
+Feasible solution found
+

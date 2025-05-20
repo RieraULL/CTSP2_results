@@ -1,0 +1,90 @@
+Version identifier: 22.1.0.0 | 2022-03-09 | 1a383f8ce
+CPXPARAM_Preprocessing_Reduce                    1
+CPXPARAM_Threads                                 1
+CPXPARAM_Preprocessing_Reformulations            0
+CPXPARAM_Emphasis_MIP                            2
+CPXPARAM_TimeLimit                               7200
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0.5
+CPXPARAM_MIP_Limits_TreeMemory                   26600
+Legacy callback                                  BbLUID
+         Disabling repeat represolve because of lazy constraint/incumbent callback.
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 60680.0000.
+Tried aggregator 1 time.
+MIP Presolve modified 25973 coefficients.
+Reduced MIP has 561 rows, 25694 columns, and 77076 nonzeros.
+Reduced MIP has 25694 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.04 sec. (88.98 ticks)
+Probing time = 0.01 sec. (8.17 ticks)
+Clique table members: 558.
+MIP emphasis: optimality.
+MIP search method: traditional branch-and-cut.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.01 sec. (15.35 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap         Variable B NodeID Parent  Depth
+
+*     0+    0                        60680.0000        0.0000           100.00%
+      0     0    56335.5000   164    60680.0000    48113.0000      189   20.71%
+      0     0    58650.0000   306    60680.0000      Cuts: 89      427    3.35%
+      0     0    59091.5000   488    60680.0000      Cuts: 28      507    2.62%
+      0     0    59379.0000   152    60680.0000      Cuts: 93      559    2.14%
+      0     0    59540.0000   108    60680.0000      Cuts: 21      587    1.88%
+      0     0    59597.5000   544    60680.0000      Cuts: 17      620    1.78%
+      0     0    59791.5000   186    60680.0000      Cuts: 20      658    1.46%
+      0     0    59912.0000   224    60680.0000      Cuts: 20      685    1.27%
+      0     0    60089.0000   495    60680.0000      Cuts: 20      721    0.97%
+      0     0    60182.5000   460    60680.0000      Cuts: 25      751    0.82%
+      0     0    60235.5000   537    60680.0000      Cuts: 29      791    0.73%
+      0     0    60260.5000   398    60680.0000      Cuts: 13      818    0.69%
+      0     0    60269.5000   547    60680.0000      Cuts: 15      834    0.68%
+      0     0    60287.5000   575    60680.0000  ZeroHalf: 15      852    0.65%
+      0     0    60359.7333   573    60680.0000  ZeroHalf: 15      883    0.53%
+      0     0    60377.0000   306    60680.0000      Cuts: 46      909    0.50%
+      0     0    60383.0000   551    60680.0000      Cuts: 21      926    0.49%
+      0     0    60383.0000   162    60680.0000   ZeroHalf: 1      933    0.49%
+      0     0    60383.0000   556    60680.0000      Cuts: 22      978    0.49%
+      0     0    60383.0000   392    60680.0000       User: 1      989    0.49%
+      0     2    60383.0000   392    60680.0000    60383.0000      989    0.49%                        0             0
+Elapsed time = 1.34 sec. (4105.44 ticks, tree = 0.01 MB, solutions = 1)
+      2     4    60383.0000   284    60680.0000    60383.0000     1043    0.49%  x(c97_1_c96_1) U      2      0      1
+      4     6    60442.2000   354    60680.0000    60389.2500     1101    0.48%  x(c76_1_c21_1) N      4      3      3
+     13     9        cutoff          60680.0000    60389.2500     1181    0.48%  x(c86_2_c95_2) N     13     12     11
+     20    12    60543.0000   398    60680.0000    60392.0000     1258    0.47%  x(c23_1_c76_1) D     20     19      7
+     33    22    60622.5000   190    60680.0000    60392.0000     1366    0.47%  x(c91_2_c76_2) N     33     31     18
+     41    25    60544.2500   451    60680.0000    60417.0000     1481    0.43%  x(c21_1_c76_1) N     41     39      3
+     54    35    60585.3333   230    60680.0000    60444.0000     1645    0.39%  x(c86_3_c50_3) N     54     49      8
+     70    49    60455.4167   206    60680.0000    60453.2500     1899    0.37%   x(c6_2_c80_2) D     70     69     10
+     90    67    60483.5000    38    60680.0000    60475.5000     2243    0.34%  x(c21_2_c70_2) D     90     89     15
+    141    99    60570.1600   431    60680.0000    60494.3000     3318    0.31%  x(c91_2_c76_2) N    141    134     15
+Elapsed time = 4.89 sec. (7521.21 ticks, tree = 1.70 MB, solutions = 1)
+    198   136    60530.2143   366    60680.0000    60525.0000     4496    0.26%   x(c2_2_c30_2) D    198    197     22
+    263   173    60546.7500   222    60680.0000    60542.6667     5815    0.23%  x(c69_1_c60_1) U    263    254     20
+    354   222    60599.5000   481    60680.0000    60553.6417     7590    0.21%  x(c91_2_c76_2) N    354    323     11
+    440   265    60616.7500   363    60680.0000    60565.5000     9055    0.19%  x(c21_2_c70_2) N    440    439      8
+    528   292        cutoff          60680.0000    60577.5000    10472    0.17%  x(c21_1_c76_1) U    528    379     16
+    631   330        cutoff          60680.0000    60589.0000    12412    0.15%   x(c2_2_c21_2) U    631    594     43
+    725   352    60608.8333   367    60680.0000    60598.3333    14009    0.13%  x(c50_2_c86_2) D    725     53     11
+    814   374    60653.7500   200    60680.0000    60604.5000    15406    0.12%  x(c74_1_c36_1) N    814    813     37
+    921   390    60633.8750   207    60680.0000    60613.0000    17221    0.11%     x(c24_2_Om) D    921    769     18
+   1042   410    60640.4683   444    60680.0000    60620.6533    18739    0.10%  x(c30_2_c89_2) D   1042    368     10
+Elapsed time = 16.74 sec. (17184.17 ticks, tree = 7.80 MB, solutions = 1)
+   1138   408    60634.5000    78    60680.0000    60627.0000    20082    0.09%  x(c24_3_c29_3) D   1138   1137     31
+   1202   425    60630.4000   427    60680.0000    60629.8333    20912    0.08%  x(c76_1_c70_1) U   1202   1168     26
+*  1267   240      integral     0    60654.0000    60634.5000    21604    0.03%
+   1298   225    60649.0000   172    60654.0000    60636.0000    21781    0.03%   x(c99_1_c4_1) D   1298    917     35
+   1417   172        cutoff          60654.0000    60642.1389    22728    0.02%  x(c35_2_c21_2) U   1417    722     35
+   1531   104        cutoff          60654.0000    60647.4500    23268    0.01%  x(c76_1_c21_1) U   1531   1379     17
+
+Zero-half cuts applied:  85
+Gomory fractional cuts applied:  5
+User cuts applied:  680
+
+Root node processing (before b&c):
+  Real time             =    1.34 sec. (4108.46 ticks)
+Sequential b&c:
+  Real time             =   20.76 sec. (18089.64 ticks)
+                          ------------
+Total (root+branch&cut) =   22.10 sec. (22198.09 ticks)
+

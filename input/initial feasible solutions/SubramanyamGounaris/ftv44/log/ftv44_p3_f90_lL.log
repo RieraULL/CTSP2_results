@@ -1,0 +1,17 @@
+- Starting heuristic -
+
+Exact TSP
+x  TSP Iteration:       0   1598   4652
+* APER Iteration:       0   1598   4595
+------ Iteration:       0   1598   4595
+* APER Iteration:      25   1557   4554
+------ Iteration:     100   1557   4554
+------ Iteration:     200   1557   4554
+------ Iteration:     300   1557   4554
+
+Exact Precedences TSP
+* APER Iteration:       0   1581   4594
+* 2OPT Iteration:       1   1554   4503
+* APER Iteration:       2   1589   4510
+Feasible solution found
+

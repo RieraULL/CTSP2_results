@@ -1,0 +1,12 @@
+- Starting heuristic -
+
+Exact TSP
+x  TSP Iteration:       0    923   2620
+------ Iteration:       0    923   2620
+------ Iteration:     100    923   2620
+------ Iteration:     200    923   2620
+------ Iteration:     300    923   2620
+
+Exact Precedences TSP
+Feasible solution found
+

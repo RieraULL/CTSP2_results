@@ -1,0 +1,41 @@
+- Starting heuristic -
+
+Exact TSP
+   TSP Iteration:       0   1608
+------ Iteration:       0   1608
+------ Iteration:     100   1608
+------ Iteration:     200   1608
+------ Iteration:     300   1608
+
+Nearest Neighbor TSP
+------ Iteration:       0   1608
+------ Iteration:     100   1608
+------ Iteration:     200   1608
+------ Iteration:     300   1608
+------ Iteration:     400   1608
+------ Iteration:     500   1608
+------ Iteration:     600   1608
+
+Cheapest Insertion TSP
+------ Iteration:       0   1608
+------ Iteration:     100   1608
+------ Iteration:     200   1608
+------ Iteration:     300   1608
+------ Iteration:     400   1608
+------ Iteration:     500   1608
+------ Iteration:     600   1608
+------ Iteration:     700   1608
+------ Iteration:     800   1608
+------ Iteration:     900   1608
+------ Iteration:    1000   1608
+------ Iteration:    1100   1608
+------ Iteration:    1200   1608
+
+Exact Precedences TSP
+* 2OPT Iteration:       0   1570   7466
+* 2OPT Iteration:       1   1490   7015
+* BPER Iteration:       1   1490   6956
+* 2OPT Iteration:       2   1483   6876
+* 2OPT Iteration:       3   1483   6970
+Feasible solution found
+

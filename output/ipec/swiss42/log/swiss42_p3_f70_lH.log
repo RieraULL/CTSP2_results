@@ -1,0 +1,53 @@
+Version identifier: 22.1.0.0 | 2022-03-09 | 1a383f8ce
+CPXPARAM_Preprocessing_Reduce                    0
+CPXPARAM_Threads                                 1
+CPXPARAM_Preprocessing_Reformulations            0
+CPXPARAM_Emphasis_MIP                            2
+CPXPARAM_TimeLimit                               7200
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0.98999999999999999
+CPXPARAM_MIP_Limits_TreeMemory                   20000
+Legacy callback                                  BbLUID
+         Disabling repeat represolve because of lazy constraint/incumbent callback.
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 3274.0000.
+Tried aggregator 0 times.
+Reduced MIP has 172 rows, 2392 columns, and 9402 nonzeros.
+Reduced MIP has 2392 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.49 ticks)
+Probing time = 0.00 sec. (2.61 ticks)
+Clique table members: 86.
+MIP emphasis: optimality.
+MIP search method: traditional branch-and-cut.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (2.09 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap         Variable B NodeID Parent  Depth
+
+*     0+    0                         3274.0000        0.0000           100.00%
+      0     0     3093.0000    52     3274.0000     2621.0000      174   19.95%
+      0     0     3193.0000    38     3274.0000      Cuts: 25      208    2.47%
+      0     0     3220.0000    62     3274.0000      Cuts: 26      238    1.65%
+      0     0     3220.0000    52     3274.0000      Cuts: 14      241    1.65%
+      0     0     3220.0000   172     3274.0000   ZeroHalf: 2      242    1.65%
+      0     0     3220.0000   172     3274.0000      Cuts: 10      245    1.65%
+      0     2     3220.0000   172     3274.0000     3220.0000      245    1.65%                        0             0
+Elapsed time = 0.18 sec. (246.63 ticks, tree = 0.01 MB, solutions = 1)
+     39    21     3238.0000    95     3274.0000     3234.8143      724    1.20%  x(c35_3_c33_3) U     39     34      4
+    127    70     3256.0000   132     3274.0000     3252.2500     2111    0.66%     x(Op_c34_2) D    127    126      7
+    239   110     3264.2059   164     3274.0000     3259.4000     3986    0.45%  x(c39_3_c35_3) D    239    172      6
+    356   119        cutoff           3274.0000     3264.3000     5495    0.30%  x(c34_3_c35_3) D    356     56      8
+    518    86        cutoff           3274.0000     3269.3571     6999    0.14%  x(c39_2_c34_2) U    518    284     12
+
+Cover cuts applied:  3
+Zero-half cuts applied:  12
+Gomory fractional cuts applied:  3
+User cuts applied:  255
+
+Root node processing (before b&c):
+  Real time             =    0.18 sec. (246.75 ticks)
+Sequential b&c:
+  Real time             =    1.30 sec. (1323.24 ticks)
+                          ------------
+Total (root+branch&cut) =    1.48 sec. (1569.98 ticks)
+

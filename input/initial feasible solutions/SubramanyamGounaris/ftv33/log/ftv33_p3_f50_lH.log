@@ -1,0 +1,12 @@
+- Starting heuristic -
+
+Exact TSP
+x  TSP Iteration:       0   1029   3037
+------ Iteration:       0   1029   3037
+------ Iteration:     100   1029   3037
+------ Iteration:     200   1029   3037
+------ Iteration:     300   1029   3037
+
+Exact Precedences TSP
+Feasible solution found
+
