@@ -47,7 +47,7 @@ Each of these folders includes a `.csv` file containing detailed results for all
 * **#PEC r\_cuts / cuts**: Number of path elimination cuts added at the root and during the full run.
 * **Root LB / UB**: Lower and upper bounds at the root node.
 * **Best Bound / Best Integer**: Final best bound and best integer solution found.
-* **Status**: Termination status of the solution process (e.g., optimal, time limit, memory limit).
+* **Status**: Termination status of the solution process (e.g., optimal (2), time limit or memory limit (1)).
 
 Additionally, for each instance family:
 
