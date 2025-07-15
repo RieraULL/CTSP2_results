@@ -2,6 +2,9 @@
 
 This repository contains the input and output files associated with the computational experiments described in the article *Dual-Driven Path Elimination for Vehicle Routing with Idle Times and Arrival-Time Consistency*.
 
+The algorithms were implemented in C++ and compiled with gcc version 13.3.0 on a Linux Ubuntu 24.04 LTS system, using the -O2 optimization flag. All experiments were run on a single core of an Intel Core i5-7500 processor with 20~GB of RAM. CPLEX 22.1, accessed via its callable library, was used to solve the branch-and-cut implementations of the models. A time limit of 7200 seconds was imposed for each instance, following the same computational settings adopted in "A Decomposition Algorithm for the Consistent Traveling Salesman Problem with Vehicle Idling",
+Anirudh Subramanyam and Chrysanthos E. Gounaris, Transportation Science 2018 52:2, 386-401.
+
 ## Repository Structure
 
 ### `input/`
