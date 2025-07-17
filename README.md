@@ -1,10 +1,10 @@
-# 🧪 Computational Experiments for *Dual-Driven Path Elimination for Vehicle Routing with Idle Times and Arrival-Time Consistency*
+# Computational Experiments for *Dual-Driven Path Elimination for Vehicle Routing with Idle Times and Arrival-Time Consistency*
 
 This repository contains all input and output files associated with the computational experiments described in the article:
 
 > *Dual-Driven Path Elimination for Vehicle Routing with Idle Times and Arrival-Time Consistency*
 
-## ⚙️ Computational Environment
+## Computational Environment
 
 All algorithms were implemented in C++ and compiled with `gcc` version **13.3.0** on **Ubuntu 24.04 LTS**, using the `-O2` optimization flag. Experiments were executed on a **single core** of an **Intel Core i5-7500** processor with **20 GB RAM**.
 
@@ -49,11 +49,11 @@ Each folder contains:
 
 ---
 
-## 📊 CSV Output Format
+##  CSV Output Format
 
 Each `.csv` file reports one row per instance, with the following columns:
 
-### 🧾 Instance Details
+###  Instance Details
 - `Instance name`: Identifier of the test instance.
 - `maxTimeWidth ($\omega_c$)`: Maximum width of customer time windows.
 - `maxRouteTime ($\omega_0$)`: Maximum duration per route.
@@ -62,7 +62,7 @@ Each `.csv` file reports one row per instance, with the following columns:
 - `Opt./Best no waiting`, `Opt./Best waiting`: Best known values from prior work.
 - `Problem type`: Variant of the ConTSP addressed.
 
-### 🧠 Solution Method Details
+###  Solution Method Details
 - `Algorithm`: Model/algorithm used.
 - `# cons` / `# var`: Constraint and variable counts.
 - `Root time (sec.)`, `Total time (sec.)`: Root node and total solve time.
