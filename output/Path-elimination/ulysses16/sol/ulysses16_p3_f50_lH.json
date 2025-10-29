@@ -1,0 +1,56 @@
+{
+  "instance_name": "ulysses16_p3_f50_lH",
+
+  "schedule": 
+  [
+  {
+    "route": 1,
+    "tasks": 
+    [
+      { "customer":   0, "arrival_starting": [   0.0,    0.0] },
+      { "customer":   7, "arrival_starting": [  60.0,  479.0] },
+      { "customer":  13, "arrival_starting": [ 958.0,  958.0] },
+      { "customer":  12, "arrival_starting": [1010.0, 1010.0] },
+      { "customer":  11, "arrival_starting": [1078.0, 1078.0] },
+      { "customer":   5, "arrival_starting": [1349.0, 1349.0] },
+      { "customer":  10, "arrival_starting": [2930.0, 2930.0] },
+      { "customer":   9, "arrival_starting": [4627.0, 4627.0] },
+      { "customer":   2, "arrival_starting": [5672.0, 5672.0] },
+      { "customer":   0, "arrival_starting": [6173.0, 6173.0] }
+    ]
+  },
+  {
+    "route": 2,
+    "tasks": 
+    [
+      { "customer":   0, "arrival_starting": [   0.0,    0.0] },
+      { "customer":   7, "arrival_starting": [  60.0,  479.0] },
+      { "customer":   6, "arrival_starting": [1146.0, 1146.0] },
+      { "customer":   5, "arrival_starting": [1261.0, 1261.0] },
+      { "customer":   4, "arrival_starting": [1739.0, 1739.0] },
+      { "customer":  10, "arrival_starting": [3243.0, 3243.0] },
+      { "customer":   8, "arrival_starting": [4630.0, 4630.0] },
+      { "customer":  15, "arrival_starting": [5563.0, 5563.0] },
+      { "customer":   0, "arrival_starting": [5713.0, 5713.0] }
+    ]
+  },
+  {
+    "route": 3,
+    "tasks": 
+    [
+      { "customer":   0, "arrival_starting": [   0.0,    0.0] },
+      { "customer":  13, "arrival_starting": [ 479.0,  479.0] },
+      { "customer":   4, "arrival_starting": [1079.0, 1079.0] },
+      { "customer":  10, "arrival_starting": [2583.0, 2583.0] },
+      { "customer":   8, "arrival_starting": [3970.0, 3970.0] },
+      { "customer":   9, "arrival_starting": [4298.0, 4298.0] },
+      { "customer":   2, "arrival_starting": [5343.0, 5343.0] },
+      { "customer":   1, "arrival_starting": [5469.0, 5469.0] },
+      { "customer":   3, "arrival_starting": [5943.0, 5943.0] },
+      { "customer":   0, "arrival_starting": [6255.0, 6255.0] }
+    ]
+  }
+  ]
+
+}
+

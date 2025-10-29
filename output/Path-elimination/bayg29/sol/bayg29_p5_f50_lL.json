@@ -1,0 +1,121 @@
+{
+  "instance_name": "bayg29_p5_f50_lL",
+
+  "schedule": 
+  [
+  {
+    "route": 1,
+    "tasks": 
+    [
+      { "customer":   0, "arrival_starting": [   0.0,    0.0] },
+      { "customer":  27, "arrival_starting": [  34.0,   40.0] },
+      { "customer":  11, "arrival_starting": [ 111.0,  111.0] },
+      { "customer":   4, "arrival_starting": [ 199.0,  199.0] },
+      { "customer":   1, "arrival_starting": [ 270.0,  270.0] },
+      { "customer":  19, "arrival_starting": [ 319.0,  319.0] },
+      { "customer":   9, "arrival_starting": [ 344.0,  344.0] },
+      { "customer":  12, "arrival_starting": [ 395.0,  395.0] },
+      { "customer":   3, "arrival_starting": [ 455.0,  455.0] },
+      { "customer":  16, "arrival_starting": [ 584.0,  584.0] },
+      { "customer":  18, "arrival_starting": [ 739.0,  739.0] },
+      { "customer":   6, "arrival_starting": [ 861.0,  861.0] },
+      { "customer":  15, "arrival_starting": [ 982.0,  982.0] },
+      { "customer":  26, "arrival_starting": [1030.0, 1030.0] },
+      { "customer":  23, "arrival_starting": [1068.0, 1069.0] },
+      { "customer":   0, "arrival_starting": [1121.0, 1121.0] }
+    ]
+  },
+  {
+    "route": 2,
+    "tasks": 
+    [
+      { "customer":   0, "arrival_starting": [   0.0,    0.0] },
+      { "customer":   4, "arrival_starting": [  86.0,   86.0] },
+      { "customer":   8, "arrival_starting": [ 128.0,  128.0] },
+      { "customer":  25, "arrival_starting": [ 185.0,  185.0] },
+      { "customer":  28, "arrival_starting": [ 221.0,  221.0] },
+      { "customer":   1, "arrival_starting": [ 295.0,  295.0] },
+      { "customer":  19, "arrival_starting": [ 344.0,  344.0] },
+      { "customer":  14, "arrival_starting": [ 435.0,  435.0] },
+      { "customer":  16, "arrival_starting": [ 545.0,  545.0] },
+      { "customer":  10, "arrival_starting": [ 651.0,  651.0] },
+      { "customer":  24, "arrival_starting": [ 739.0,  739.0] },
+      { "customer":  15, "arrival_starting": [ 817.0,  923.0] },
+      { "customer":  22, "arrival_starting": [1021.0, 1021.0] },
+      { "customer":   7, "arrival_starting": [1112.0, 1112.0] },
+      { "customer":  23, "arrival_starting": [1160.0, 1160.0] },
+      { "customer":   0, "arrival_starting": [1212.0, 1212.0] }
+    ]
+  },
+  {
+    "route": 3,
+    "tasks": 
+    [
+      { "customer":   0, "arrival_starting": [   0.0,    0.0] },
+      { "customer":  27, "arrival_starting": [  34.0,   40.0] },
+      { "customer":  11, "arrival_starting": [ 111.0,  111.0] },
+      { "customer":   5, "arrival_starting": [ 157.0,  157.0] },
+      { "customer":  25, "arrival_starting": [ 255.0,  255.0] },
+      { "customer":   1, "arrival_starting": [ 344.0,  344.0] },
+      { "customer":  19, "arrival_starting": [ 393.0,  393.0] },
+      { "customer":  17, "arrival_starting": [ 493.0,  493.0] },
+      { "customer":  21, "arrival_starting": [ 559.0,  559.0] },
+      { "customer":  10, "arrival_starting": [ 622.0,  622.0] },
+      { "customer":  24, "arrival_starting": [ 710.0,  710.0] },
+      { "customer":  15, "arrival_starting": [ 788.0,  923.0] },
+      { "customer":  22, "arrival_starting": [1021.0, 1021.0] },
+      { "customer":  26, "arrival_starting": [1095.0, 1095.0] },
+      { "customer":   7, "arrival_starting": [1134.0, 1134.0] },
+      { "customer":  23, "arrival_starting": [1182.0, 1182.0] },
+      { "customer":   0, "arrival_starting": [1234.0, 1234.0] }
+    ]
+  },
+  {
+    "route": 4,
+    "tasks": 
+    [
+      { "customer":   0, "arrival_starting": [   0.0,    0.0] },
+      { "customer":  27, "arrival_starting": [  34.0,   40.0] },
+      { "customer":  20, "arrival_starting": [ 124.0,  124.0] },
+      { "customer":   4, "arrival_starting": [ 174.0,  174.0] },
+      { "customer":  28, "arrival_starting": [ 243.0,  243.0] },
+      { "customer":   1, "arrival_starting": [ 317.0,  317.0] },
+      { "customer":   9, "arrival_starting": [ 382.0,  382.0] },
+      { "customer":  14, "arrival_starting": [ 454.0,  454.0] },
+      { "customer":  17, "arrival_starting": [ 510.0,  510.0] },
+      { "customer":  13, "arrival_starting": [ 542.0,  542.0] },
+      { "customer":  21, "arrival_starting": [ 578.0,  578.0] },
+      { "customer":  10, "arrival_starting": [ 641.0,  641.0] },
+      { "customer":  24, "arrival_starting": [ 729.0,  729.0] },
+      { "customer":  15, "arrival_starting": [ 807.0,  923.0] },
+      { "customer":  23, "arrival_starting": [ 976.0, 1069.0] },
+      { "customer":   7, "arrival_starting": [1117.0, 1117.0] },
+      { "customer":   0, "arrival_starting": [1182.0, 1182.0] }
+    ]
+  },
+  {
+    "route": 5,
+    "tasks": 
+    [
+      { "customer":   0, "arrival_starting": [   0.0,    0.0] },
+      { "customer":  27, "arrival_starting": [  34.0,   40.0] },
+      { "customer":   5, "arrival_starting": [  92.0,   92.0] },
+      { "customer":   4, "arrival_starting": [ 143.0,  143.0] },
+      { "customer":  25, "arrival_starting": [ 194.0,  194.0] },
+      { "customer":  28, "arrival_starting": [ 230.0,  230.0] },
+      { "customer":   2, "arrival_starting": [ 290.0,  290.0] },
+      { "customer":  17, "arrival_starting": [ 526.0,  526.0] },
+      { "customer":  13, "arrival_starting": [ 558.0,  558.0] },
+      { "customer":  21, "arrival_starting": [ 594.0,  594.0] },
+      { "customer":   6, "arrival_starting": [ 803.0,  803.0] },
+      { "customer":  22, "arrival_starting": [ 914.0,  914.0] },
+      { "customer":  26, "arrival_starting": [ 988.0,  988.0] },
+      { "customer":  15, "arrival_starting": [1036.0, 1036.0] },
+      { "customer":  23, "arrival_starting": [1089.0, 1089.0] },
+      { "customer":   0, "arrival_starting": [1141.0, 1141.0] }
+    ]
+  }
+  ]
+
+}
+

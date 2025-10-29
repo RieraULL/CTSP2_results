@@ -1,0 +1,57 @@
+{
+  "instance_name": "gr17_p3_f50_lL",
+
+  "schedule": 
+  [
+  {
+    "route": 1,
+    "tasks": 
+    [
+      { "customer":   0, "arrival_starting": [   0.0,    0.0] },
+      { "customer":   5, "arrival_starting": [ 150.0,  150.0] },
+      { "customer":  13, "arrival_starting": [ 255.0,  255.0] },
+      { "customer":  14, "arrival_starting": [ 312.0,  312.0] },
+      { "customer":   4, "arrival_starting": [ 511.0,  511.0] },
+      { "customer":   1, "arrival_starting": [ 738.0,  738.0] },
+      { "customer":   8, "arrival_starting": [1293.0, 1293.0] },
+      { "customer":  11, "arrival_starting": [1388.0, 1388.0] },
+      { "customer":  15, "arrival_starting": [1545.0, 1545.0] },
+      { "customer":   0, "arrival_starting": [1791.0, 1791.0] }
+    ]
+  },
+  {
+    "route": 2,
+    "tasks": 
+    [
+      { "customer":   0, "arrival_starting": [   0.0,    0.0] },
+      { "customer":   6, "arrival_starting": [  80.0,  150.0] },
+      { "customer":   7, "arrival_starting": [ 179.0,  179.0] },
+      { "customer":   5, "arrival_starting": [ 213.0,  213.0] },
+      { "customer":   2, "arrival_starting": [ 325.0,  325.0] },
+      { "customer":   4, "arrival_starting": [ 494.0,  494.0] },
+      { "customer":   1, "arrival_starting": [ 721.0,  721.0] },
+      { "customer":  15, "arrival_starting": [1466.0, 1466.0] },
+      { "customer":   3, "arrival_starting": [1703.0, 1703.0] },
+      { "customer":   0, "arrival_starting": [1794.0, 1794.0] }
+    ]
+  },
+  {
+    "route": 3,
+    "tasks": 
+    [
+      { "customer":   0, "arrival_starting": [   0.0,    0.0] },
+      { "customer":   6, "arrival_starting": [  80.0,  150.0] },
+      { "customer":   7, "arrival_starting": [ 179.0,  179.0] },
+      { "customer":  14, "arrival_starting": [ 344.0,  344.0] },
+      { "customer":  10, "arrival_starting": [ 484.0,  484.0] },
+      { "customer":   4, "arrival_starting": [ 545.0,  545.0] },
+      { "customer":   1, "arrival_starting": [ 772.0,  772.0] },
+      { "customer":  11, "arrival_starting": [1410.0, 1410.0] },
+      { "customer":   3, "arrival_starting": [1650.0, 1650.0] },
+      { "customer":   0, "arrival_starting": [1741.0, 1741.0] }
+    ]
+  }
+  ]
+
+}
+
