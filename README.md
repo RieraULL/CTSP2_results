@@ -4,6 +4,12 @@ This repository contains all input and output files associated with the computat
 
 > *Dual-Driven Path Elimination for Vehicle Routing with Idle Times and Arrival-Time Consistency*
 
+## Citation
+
+If you use any of the instances, or solution data contained in this repository, please cite the following publication:
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17560424.svg)](https://doi.org/10.5281/zenodo.17560424)
+
 ## Computational Environment
 
 All algorithms were implemented in C++ and compiled with `gcc` version **13.3.0** on **Ubuntu 24.04 LTS**, using the `-O2` optimization flag. Experiments were executed on a **single core** of an **Intel Core i5-7500** processor with **20 GB RAM**.
