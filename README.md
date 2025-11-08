@@ -1,4 +1,4 @@
-# Computational Experiments for *Dual-Driven Path Elimination for Vehicle Routing with Idle Times and Arrival-Time Consistency*
+# Input Data and Computational Experiment Results for *Dual-Driven Path Elimination for Vehicle Routing with Idle Times and Arrival-Time Consistency*
 
 This repository contains all input and output files associated with the computational experiments described in the article:
 
