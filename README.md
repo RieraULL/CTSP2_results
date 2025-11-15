@@ -10,6 +10,24 @@ If you use any of the instances, or solution data contained in this repository, 
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17560424.svg)](https://doi.org/10.5281/zenodo.17560424)
 
+## 🔗 Related Resources
+
+### 📖 Instance Parsing Software
+
+Interested in **reading and parsing these instances**? Use our dedicated C++ library:
+
+> Riera-Ledesma, J., Rodríguez-Martín, I., & Hernández-Pérez, H. (2025).  
+> *A C++ library for reading and parsing Consistent Traveling Salesman Problem (CTSP) instances in TSPLIB format.*  
+> Zenodo. [https://doi.org/10.5281/zenodo.17564119](https://doi.org/10.5281/zenodo.17564119)
+
+### ⚙️ Separation Algorithm Software
+
+Interested in **understanding our algorithm in more detail**? Download the separation routine implementation:
+
+> Jorge Riera-Ledesma. (2025).  
+> *CTSP-SEP: Software to Generate Time-Consistency Inequalities for the CTSP with Idle Times (v.2.0.0).*  
+> Zenodo. [https://doi.org/10.5281/zenodo.17616597](https://doi.org/10.5281/zenodo.17616597)
+
 ## Computational Environment
 
 All algorithms were implemented in C++ and compiled with `gcc` version **13.3.0** on **Ubuntu 24.04 LTS**, using the `-O2` optimization flag. Experiments were executed on a **single core** of an **Intel Core i5-7500** processor with **20 GB RAM**.
